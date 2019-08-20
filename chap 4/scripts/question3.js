@@ -36,7 +36,7 @@ for(let k = 0 ; k < names.length ; k++){
 		document.write("</td>")
 
 		document.write("<td>")
-			document.write(miles[k]*gallons[k] + "mpg")
+			document.write(miles[k]%gallons[k] + "mpg")
 		document.write("</td>")
 
 	document.write("</tr>")
