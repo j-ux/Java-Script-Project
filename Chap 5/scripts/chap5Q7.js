@@ -18,12 +18,12 @@ let oddavg=0
 	   let num=prompt("enter a number")
    
         if(num%2==0){
-			evenarray.push(num);
+			even.push(num);
 			even_sum=even_sum + i;
 			
 		}
 		else{
-			oddarray.push(num);
+			even.push(num);
 			odd_sum=odd_sum + i;
 			
 		}
