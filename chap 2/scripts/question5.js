@@ -1,6 +1,9 @@
-console.log("Hello expressions")
 
-let number=prompt("enter a number")
+let pass=prompt("enter your password")
+
+let pass=password
+
+
 
 
     if(number>=1 && number<=50){
@@ -10,3 +13,4 @@ let number=prompt("enter a number")
 	else if(number<1 || number>50){
 	console.log("Outside Range")
 	}
+	
